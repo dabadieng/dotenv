@@ -1,0 +1,21 @@
+Réponse
+Pour installer Homebrew sur macOS, suivez ces étapes :
+Prérequis : Assurez-vous d'avoir installé les Xcode Command Line Tools. Vous pouvez vérifier cela en ouvrant le Terminal (Applications > Utilitaires > Terminal) et en tapant la commande suivante :
+bash
+xcode-select --install
+
+Cela installera les outils nécessaires si ce n'est pas déjà fait.
+Installation de Homebrew : Ouvrez le Terminal et exécutez la commande suivante pour installer Homebrew :
+bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+Cette commande télécharge et exécute le script d'installation de Homebrew. Vous devrez entrer votre mot de passe administrateur lorsque cela vous sera demandé.
+Suivre les instructions : Le script d'installation vous guidera à travers le processus, vous demandant d'appuyer sur RETURN pour continuer. L'installation peut prendre quelques minutes
+4
+.
+Vérification de l'installation : Une fois l'installation terminée, vous pouvez vérifier que Homebrew est correctement installé en tapant la commande suivante dans le Terminal :
+bash
+brew --version
+
+Cela devrait afficher la version de Homebrew installée.
+Homebrew est maintenant installé sur votre Mac, vous permettant d'installer et de gérer facilement des logiciels via la ligne de commande.
