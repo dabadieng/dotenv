@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Users/dabadieng/.vim'
+let g:netrw_dirhist_0='/Users/dabadieng/bearingPoint/lab/SelliaSandbox/.deployment/kubernetes/helm/frontend'
+let g:netrw_dirhist_9='/Users/dabadieng/bearingPoint/lab/SelliaSandbox/.deployment/kubernetes/helm/webapi'
+let g:netrw_dirhist_8='/Users/dabadieng/bearingPoint/lab/SelliaSandbox/.deployment/kubernetes/helm'
+let g:netrw_dirhist_7='/Users/dabadieng/bearingPoint/lab/SelliaSandbox/.deployment/kubernetes'
+let g:netrw_dirhist_6='/Users/dabadieng/bearingPoint/lab/SelliaSandbox/.deployment'
+let g:netrw_dirhist_5='/Users/dabadieng/bearingPoint/lab/SelliaSandbox/.deployment/infra'
+let g:netrw_dirhist_4='/Users/dabadieng/bearingPoint/lab/SelliaSandbox/.deployment'
+let g:netrw_dirhist_3='/Users/dabadieng/bearingPoint/lab/SelliaSandbox/.deployment/kubernetes'
+let g:netrw_dirhist_2='/Users/dabadieng/bearingPoint/lab/SelliaSandbox/.deployment'

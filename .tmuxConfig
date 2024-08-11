@@ -1,0 +1,9 @@
+git  clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
+
+https://github.com/gpakosz/.tmux
+
+dans ton dossier ~/.tmux.conf
+unbind C-b
+set -g prefix C-a
