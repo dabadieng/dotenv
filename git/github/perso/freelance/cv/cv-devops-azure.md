@@ -1,13 +1,14 @@
 # Daba TALL
 
-Ingénieure DevOps Azure | 9 ans dans le DevOps et l'infrastructure cloud
+Ingénieure DevOps Cloud | 9 ans dans l'IT, expertise cloud et automatisation
+Certifiée AWS Solutions Architect | Microsoft Azure Administrator
 daba.tall@outlook.com
 
 ---
 
 ## Profil
 
-Ingénieure DevOps spécialisée Azure, j'interviens sur l'ensemble du cycle de vie de l'infrastructure cloud : architecture IaC Terraform, déploiement et exploitation de plateformes conteneurisées, sécurité réseau, CI/CD et monitoring. Parcours construit sur des environnements de production grands comptes (énergie, finance, banque, industrie).
+Ingénieure DevOps Cloud avec une forte expertise Azure (certifiée AWS également). Parcours construit sur le terrain : du développement backend à l'exploitation de plateformes cloud production-grade, en passant par l'architecture IaC et la sécurité. J'interviens aujourd'hui sur l'ensemble du cycle de vie de l'infrastructure cloud pour des grands comptes (énergie, finance, banque) : architecture Terraform, conteneurs (Container Apps, AKS, ECS), CDN/WAF, CI/CD, monitoring et plan de reprise d'activité.
 
 ---
 
@@ -31,7 +32,9 @@ Monitoring : Application Insights, Log Analytics, OpenTelemetry (OTLP HTTP/gRPC)
 
 Backup/DR : MySQL dump automatisé, snapshots NFS, Recovery Services Vault, Backup Vault, GZRS, workflows de restauration
 
-Langages et outils : Bash, Python, PHP/Symfony, Azure CLI, GitHub CLI, Git, Linux
+Scripting et automatisation : Bash, Python, Azure CLI, GitHub CLI, Git, Linux
+
+Connaissance applicative : PHP/Symfony, Python/Django, Node.js, Angular, Drupal (utile pour comprendre les applications déployées et dialoguer avec les équipes dev)
 
 ---
 
@@ -53,15 +56,15 @@ CI/CD : 6+ workflows GitHub Actions par repo. OIDC Azure (zéro secret statique)
 
 Monitoring : Application Insights avec alertes métier, Log Analytics, OpenTelemetry Collector sidecar, Dynatrace OneAgent injection.
 
-Backup/DR : stratégie multi-couches (dump MySQL quotidien, snapshots NFS, Recovery Services Vault, Backup Vault rétention 30 jours, storage GZRS). Plan de reprise d'activité validé en sandbox (reconstruction complète de la plateforme en région paire).
+Backup/DR : stratégie multi-couches (dump MySQL quotidien, snapshots NFS, Recovery Services Vault, Backup Vault rétention 30 jours, storage GZRS). Plan de reprise d'activité validé en sandbox : reconstruction complète de la plateforme en région paire.
 
 Documentation architecture pour Design Authority : analyse managed identity vs access keys, flux d'authentification PKCE, matrices de flux réseau.
 
-Environnement technique : Terraform 1.9.8, AzureRM 3.85+, azapi 2.8, Azure Container Apps, App Service, Front Door Premium, MySQL Flexible, PostgreSQL Flexible, Redis Premium, GitHub Actions, Docker, Trivy, Application Insights, OpenTelemetry, Dynatrace
+Environnement technique : Terraform 1.9.8, AzureRM 3.85+, azapi 2.8, Azure Container Apps, Front Door Premium, MySQL Flexible, PostgreSQL Flexible, Redis Premium, GitHub Actions, Docker, Trivy, Application Insights, OpenTelemetry, Dynatrace
 
 ### Ingénieure DevOps Azure - BearingPoint (janvier 2024 - juin 2024)
 
-Audit et remédiation d'une plateforme Azure pour une application de crédit en environnement finance.
+Audit et remédiation d'une plateforme Azure pour une application de crédit en environnement finance, sous contrainte de conformité cybersécurité.
 
 Audit complet de l'infrastructure Azure existante et identification des écarts de sécurité et de performance. Conception et mise en place d'une topologie réseau hub and spoke avec peering VNet et isolation des environnements. Déploiement de services Azure Container Apps, Azure Functions et Azure Web App. Automatisation de l'infrastructure avec Terraform et pipelines Azure DevOps. Implémentation des recommandations cybersécurité : NSG, Key Vault, RBAC, chiffrement en transit et au repos. Mise en place du monitoring avec Azure Monitor et Application Insights.
 
@@ -69,27 +72,35 @@ Environnement technique : Terraform, Azure DevOps, Azure Container Apps, Azure F
 
 ### Ingénieure DevOps Azure - OnePoint (2021 - 2023)
 
-Ingénieure DevOps sur plusieurs projets clients Azure dans les secteurs banque, énergie et industrie.
+Missions DevOps sur plusieurs projets clients dans les secteurs banque, énergie et industrie.
 
-Conception et déploiement d'infrastructures Kubernetes (AKS) pour des applications microservices. Automatisation des déploiements avec Terraform et Ansible sur des environnements multi-subscriptions. Construction et maintenance de pipelines CI/CD Azure DevOps. Administration de clusters AKS en production : Helm charts, Azure Container Registry, autoscaling, monitoring. Gestion des environnements Linux, scripting Python et Bash pour l'automatisation des opérations. Accompagnement des équipes de développement sur les pratiques DevOps et la conteneurisation.
+Conception et déploiement d'infrastructures Kubernetes (AKS) pour des applications microservices. Industrialisation des déploiements avec Terraform et Ansible sur des environnements multi-subscriptions. Construction et maintenance de pipelines CI/CD Azure DevOps. Administration de clusters AKS en production : Helm charts, Azure Container Registry, autoscaling, monitoring. Scripting Python et Bash pour l'automatisation des opérations d'exploitation.
 
 Environnement technique : AKS, Kubernetes, Terraform, Ansible, Azure DevOps, Docker, Helm, Python, Linux
 
-### Développeuse Full Stack / DevOps / Auditrice accessibilité - Océane Consulting, Paris (2019 - 2021)
+### Ingénieure DevOps et Développeuse - Océane Consulting, Paris (2019 - 2021)
 
-Développeuse full stack, DevOps et auditrice en accessibilité numérique sur des projets clients.
+Prestation en régie chez plusieurs clients, double casquette DevOps et développement, avec une spécialisation accessibilité numérique.
 
-Développement backend en PHP/Symfony pour des applications web clients. Mise en place et maintenance d'infrastructures Azure. Automatisation des déploiements et gestion des environnements avec Azure DevOps. Audits d'accessibilité numérique (RGAA) : analyse de conformité, rédaction de rapports d'audit et recommandations de remédiation.
+Mise en place et maintenance d'infrastructures Azure pour les applications clients. Construction de pipelines CI/CD Azure DevOps. Développement backend en PHP/Symfony sur des applications métier. Audits d'accessibilité numérique (RGAA) : analyse de conformité, rédaction des rapports et recommandations de remédiation.
 
-Environnement technique : PHP, Symfony, Azure, Azure DevOps, Docker, Linux, Python, Bash, Git
+Environnement technique : Azure, Azure DevOps, Docker, PHP/Symfony, Python, Bash, Git, Linux
 
-### Développeuse Full Stack / DevOps - Kraliss, Paris (2017 - 2019)
+### Développeuse Full Stack - Kraliss, Paris (2017 - 2019)
 
-Développeuse full stack et DevOps sur une application de portefeuille électronique (wallet fintech).
+Développement d'une application fintech de portefeuille électronique (wallet).
 
-Développement backend de l'application en PHP/Symfony. Conception et gestion de la base de données MySQL. Mise en place de l'environnement d'hébergement et des déploiements. Administration système Linux et scripting d'automatisation.
+Conception et développement backend en PHP/Symfony. Modélisation et optimisation de la base de données MySQL. Mise en place des environnements d'hébergement OVH et des procédures de déploiement. Premières missions d'automatisation système (scripts shell, cron, monitoring basique).
 
-Environnement technique : PHP, Symfony, MySQL, OVH, Linux, Git, Docker
+Environnement technique : PHP, Symfony, MySQL, OVH, Linux, Git
+
+---
+
+## Certifications
+
+AWS Certified Solutions Architect
+
+Microsoft Certified: Azure Administrator Associate (AZ-104)
 
 ---
 
@@ -99,7 +110,7 @@ Master Informatique spécialité DevOps - Sorbonne Université, Paris
 
 Bachelor Responsable de Projet Informatique - ETNA, Paris
 
-BTS Développeuse Full Stack
+BTS Développement Informatique
 
 ---
 

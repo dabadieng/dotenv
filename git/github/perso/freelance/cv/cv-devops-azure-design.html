@@ -8,28 +8,19 @@
     size: A4;
     margin: 14mm 16mm 14mm 16mm;
   }
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
+  * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 8.5pt;
     line-height: 1.35;
     color: #2c2c2c;
   }
-
-  /* --- HEADER --- */
   .header {
     text-align: center;
     padding-bottom: 7pt;
     border-bottom: 2pt solid #1a3a5c;
     margin-bottom: 10pt;
   }
-
   .header h1 {
     font-size: 20pt;
     font-weight: 700;
@@ -37,23 +28,9 @@
     letter-spacing: 1pt;
     margin-bottom: 2pt;
   }
-
-  .header .subtitle {
-    font-size: 10pt;
-    color: #4a4a4a;
-    margin-bottom: 2pt;
-  }
-
-  .header .contact {
-    font-size: 8.5pt;
-    color: #666;
-  }
-
-  /* --- SECTIONS --- */
-  .section {
-    margin-bottom: 12pt;
-  }
-
+  .header .subtitle { font-size: 10pt; color: #4a4a4a; margin-bottom: 2pt; }
+  .header .contact { font-size: 8.5pt; color: #666; }
+  .section { margin-bottom: 12pt; }
   .section-title {
     font-size: 10pt;
     font-weight: 700;
@@ -64,61 +41,38 @@
     padding-bottom: 2pt;
     margin-bottom: 5pt;
   }
-
-  /* --- PROFIL --- */
   .profil p {
     font-size: 8.5pt;
     line-height: 1.4;
     color: #3a3a3a;
     text-align: justify;
   }
-
-  /* --- COMPETENCES --- */
-  .competences-table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-
+  .competences-table { width: 100%; border-collapse: collapse; }
   .competences-table td {
     vertical-align: top;
     padding: 1pt 3pt;
     font-size: 7.5pt;
     line-height: 1.35;
   }
-
   .competences-table .comp-label {
     width: 26%;
     font-weight: 600;
     color: #1a3a5c;
     padding-right: 5pt;
   }
-
-  .competences-table .comp-value {
-    width: 74%;
-    color: #3a3a3a;
-  }
-
-  /* --- EXPERIENCE --- */
-  .experience-entry {
-    margin-bottom: 10pt;
-  }
-
-  .exp-header {
-    margin-bottom: 1pt;
-  }
-
+  .competences-table .comp-value { width: 74%; color: #3a3a3a; }
+  .experience-entry { margin-bottom: 10pt; }
+  .exp-header { margin-bottom: 1pt; }
   .exp-title {
     font-size: 9.5pt;
     font-weight: 700;
     color: #1a3a5c;
   }
-
   .exp-dates {
     font-size: 8.5pt;
     font-weight: 400;
     color: #666;
   }
-
   .exp-intro {
     font-size: 8pt;
     line-height: 1.35;
@@ -126,144 +80,75 @@
     margin-bottom: 2pt;
     font-style: italic;
   }
-
   .exp-details {
     font-size: 8pt;
     line-height: 1.35;
     color: #3a3a3a;
   }
-
-  .exp-details p {
-    margin-bottom: 1pt;
-    text-align: justify;
-  }
-
+  .exp-details p { margin-bottom: 1pt; text-align: justify; }
   .exp-env {
     font-size: 7pt;
     color: #777;
     margin-top: 3pt;
     line-height: 1.25;
   }
-
-  .exp-env strong {
-    color: #666;
-  }
-
-  /* --- FORMATION --- */
-  .formation-entry {
-    margin-bottom: 4pt;
-  }
-
+  .exp-env strong { color: #666; }
+  .formation-entry { margin-bottom: 4pt; }
   .formation-entry .degree {
     font-weight: 600;
     font-size: 8.5pt;
     color: #2c2c2c;
   }
-
-  .formation-entry .school {
-    font-size: 8pt;
-    color: #666;
-  }
-
-  /* --- LANGUES / INFOS --- */
-  .bottom-section {
-    width: 100%;
-  }
-
+  .formation-entry .school { font-size: 8pt; color: #666; }
+  .bottom-section { width: 100%; }
   .bottom-section td {
     vertical-align: top;
     width: 50%;
     padding-right: 10pt;
   }
-
   .info-line {
     font-size: 8pt;
     color: #3a3a3a;
     margin-bottom: 1pt;
   }
-
-  .info-label {
-    font-weight: 600;
-    color: #1a3a5c;
-  }
-
-  /* Page break control */
-  .page-break-before {
-    page-break-before: always;
-  }
-
-  .avoid-break {
-    page-break-inside: avoid;
-  }
+  .info-label { font-weight: 600; color: #1a3a5c; }
+  .avoid-break { page-break-inside: avoid; }
 </style>
 </head>
 <body>
 
-<!-- HEADER -->
 <div class="header">
   <h1>Daba TALL</h1>
-  <div class="subtitle">Ingénieure DevOps Azure | 9 ans dans le DevOps et l'infrastructure cloud</div>
+  <div class="subtitle">Ingénieure DevOps Cloud | 9 ans dans l'IT, expertise cloud et automatisation</div>
+  <div class="subtitle" style="font-size: 9pt; color: #1a3a5c; font-weight: 600; margin-top: 1pt;">Certifiée AWS Solutions Architect | Microsoft Azure Administrator</div>
   <div class="contact">daba.tall@outlook.com</div>
 </div>
 
-<!-- PROFIL -->
 <div class="section profil">
   <div class="section-title">Profil</div>
-  <p>Ingénieure DevOps spécialisée Azure, j'interviens sur l'ensemble du cycle de vie de l'infrastructure cloud : architecture IaC Terraform, déploiement et exploitation de plateformes conteneurisées, sécurité réseau, CI/CD et monitoring. Parcours construit sur des environnements de production grands comptes (énergie, finance, banque, industrie).</p>
+  <p>Ingénieure DevOps Cloud avec une forte expertise Azure (certifiée AWS également). Parcours construit sur le terrain : du développement backend à l'exploitation de plateformes cloud production-grade, en passant par l'architecture IaC et la sécurité. J'interviens aujourd'hui sur l'ensemble du cycle de vie de l'infrastructure cloud pour des grands comptes (énergie, finance, banque) : architecture Terraform, conteneurs (Container Apps, AKS, ECS), CDN/WAF, CI/CD, monitoring et plan de reprise d'activité.</p>
 </div>
 
-<!-- COMPETENCES -->
 <div class="section">
   <div class="section-title">Compétences techniques</div>
   <table class="competences-table">
-    <tr>
-      <td class="comp-label">Infrastructure as Code</td>
-      <td class="comp-value">Terraform (modules réutilisables, Building Blocks pattern, multi-environnement, drift detection, state management, targeted apply), provider azapi</td>
-    </tr>
-    <tr>
-      <td class="comp-label">Azure Compute</td>
-      <td class="comp-value">Container Apps (workload profiles, autoscaling, sidecars OpenTelemetry), AKS (Kubernetes, Helm charts, scaling), App Service (staging slots, blue-green), Container Registry</td>
-    </tr>
-    <tr>
-      <td class="comp-label">Azure Networking</td>
-      <td class="comp-value">Front Door Premium (CDN, WAF Prevention, Private Link, custom domains, certificats managés), NSG, subnets, private endpoints, service endpoints</td>
-    </tr>
-    <tr>
-      <td class="comp-label">Azure Data</td>
-      <td class="comp-value">MySQL Flexible Server (HA SameZone, géo-replicas), PostgreSQL Flexible Server (AD auth, managed identity), Redis Premium, Azure AI Search</td>
-    </tr>
-    <tr>
-      <td class="comp-label">Azure Security</td>
-      <td class="comp-value">Key Vault (RBAC, access policies), managed identities (system et user-assigned), OIDC GitHub Actions, WAF, TLS 1.2, soft delete, network isolation</td>
-    </tr>
-    <tr>
-      <td class="comp-label">CI/CD</td>
-      <td class="comp-value">GitHub Actions (workflows multi-env, matrix builds, OIDC auth, conditional deployments, backup pre-deploy), Azure DevOps, GitLab CI</td>
-    </tr>
-    <tr>
-      <td class="comp-label">Conteneurisation</td>
-      <td class="comp-value">Docker (multi-stage, images custom PHP 8.4), Helm charts, OpenTelemetry Collector, Dynatrace OneAgent, Trivy (scan de vulnérabilités)</td>
-    </tr>
-    <tr>
-      <td class="comp-label">Monitoring</td>
-      <td class="comp-value">Application Insights, Log Analytics, OpenTelemetry (OTLP HTTP/gRPC), Dynatrace, alertes métier, KQL</td>
-    </tr>
-    <tr>
-      <td class="comp-label">Backup / DR</td>
-      <td class="comp-value">MySQL dump automatisé, snapshots NFS, Recovery Services Vault, Backup Vault, GZRS, workflows de restauration</td>
-    </tr>
-    <tr>
-      <td class="comp-label">Langages et outils</td>
-      <td class="comp-value">Bash, Python, PHP/Symfony, Azure CLI, GitHub CLI, Git, Linux</td>
-    </tr>
+    <tr><td class="comp-label">Infrastructure as Code</td><td class="comp-value">Terraform (modules réutilisables, Building Blocks pattern, multi-environnement, drift detection, state management, targeted apply), provider azapi</td></tr>
+    <tr><td class="comp-label">Azure Compute</td><td class="comp-value">Container Apps (workload profiles, autoscaling, sidecars OpenTelemetry), AKS (Kubernetes, Helm charts, scaling), App Service (staging slots, blue-green), Container Registry</td></tr>
+    <tr><td class="comp-label">Azure Networking</td><td class="comp-value">Front Door Premium (CDN, WAF Prevention, Private Link, custom domains, certificats managés), NSG, subnets, private endpoints, service endpoints</td></tr>
+    <tr><td class="comp-label">Azure Data</td><td class="comp-value">MySQL Flexible Server (HA SameZone, géo-replicas), PostgreSQL Flexible Server (AD auth, managed identity), Redis Premium, Azure AI Search</td></tr>
+    <tr><td class="comp-label">Azure Security</td><td class="comp-value">Key Vault (RBAC, access policies), managed identities (system et user-assigned), OIDC GitHub Actions, WAF, TLS 1.2, soft delete, network isolation</td></tr>
+    <tr><td class="comp-label">CI/CD</td><td class="comp-value">GitHub Actions (workflows multi-env, matrix builds, OIDC auth, conditional deployments, backup pre-deploy), Azure DevOps, GitLab CI</td></tr>
+    <tr><td class="comp-label">Conteneurisation</td><td class="comp-value">Docker (multi-stage, images custom PHP 8.4), Helm charts, OpenTelemetry Collector, Dynatrace OneAgent, Trivy (scan de vulnérabilités)</td></tr>
+    <tr><td class="comp-label">Monitoring</td><td class="comp-value">Application Insights, Log Analytics, OpenTelemetry (OTLP HTTP/gRPC), Dynatrace, alertes métier, KQL</td></tr>
+    <tr><td class="comp-label">Backup / DR</td><td class="comp-value">MySQL dump automatisé, snapshots NFS, Recovery Services Vault, Backup Vault, GZRS, workflows de restauration</td></tr>
+    <tr><td class="comp-label">Scripting et automatisation</td><td class="comp-value">Bash, Python, Azure CLI, GitHub CLI, Git, Linux</td></tr>
+    <tr><td class="comp-label">Connaissance applicative</td><td class="comp-value">PHP/Symfony, Python/Django, Node.js, Angular, Drupal (utile pour comprendre les applications déployées et dialoguer avec les équipes dev)</td></tr>
   </table>
 </div>
 
-<!-- EXPERIENCE -->
 <div class="section">
   <div class="section-title">Expérience professionnelle</div>
 
-  <!-- TotalEnergies -->
   <div class="experience-entry">
     <div class="exp-header">
       <span class="exp-title">Ingénieure DevOps Azure - TotalEnergies TGITS</span>
@@ -275,7 +160,7 @@
       <p><strong>Migration Container Apps</strong> : migration App Service vers Azure Container Apps avec zéro-downtime. Workload profiles D4/D16, autoscaling 1-25 replicas, sidecars OpenTelemetry.</p>
       <p><strong>Architecture réseau</strong> : Front Door Premium avec Private Link vers Container Apps, WAF Prevention mode, certificats managés, custom domains. NSG avec segmentation stricte prod/non-prod, private endpoints systématiques.</p>
       <p><strong>Bases de données HA</strong> : MySQL Flexible Server avec HA SameZone et géo-replica northeurope. PostgreSQL Flexible Server avec authentification Active Directory et managed identity. Redis Premium pour cache session.</p>
-      <p><strong>CI/CD</strong> : 6+ workflows GitHub Actions par repo. OIDC Azure (zéro secret statique), matrix builds multi-env, targeted apply, backup pre-déploiement, sync automatisé prod vers non-prod. Intégration Trivy pour le scan de vulnérabilités des images Docker.</p>
+      <p><strong>CI/CD</strong> : 6+ workflows GitHub Actions par repo. OIDC Azure (zéro secret statique), matrix builds multi-env, targeted apply, backup pré-déploiement, sync automatisé prod vers non-prod. Intégration Trivy pour le scan de vulnérabilités des images Docker.</p>
       <p><strong>Monitoring</strong> : Application Insights avec alertes métier, Log Analytics, OpenTelemetry Collector sidecar, Dynatrace OneAgent injection.</p>
       <p><strong>Backup/DR</strong> : stratégie multi-couches (dump MySQL quotidien, snapshots NFS, Recovery Services Vault, Backup Vault rétention 30 jours, storage GZRS). Plan de reprise d'activité validé en sandbox.</p>
       <p><strong>Documentation</strong> : analyse managed identity vs access keys, flux d'authentification PKCE, matrices de flux réseau pour Design Authority.</p>
@@ -283,60 +168,65 @@
     <div class="exp-env"><strong>Env. technique :</strong> Terraform 1.9.8, AzureRM 3.85+, azapi 2.8, Azure Container Apps, Front Door Premium, MySQL Flexible, PostgreSQL Flexible, Redis Premium, GitHub Actions, Docker, Trivy, Application Insights, OpenTelemetry, Dynatrace</div>
   </div>
 
-  <!-- BearingPoint -->
   <div class="experience-entry avoid-break">
     <div class="exp-header">
       <span class="exp-title">Ingénieure DevOps Azure - BearingPoint</span>
       <span class="exp-dates"> | janvier 2024 - juin 2024</span>
     </div>
-    <p class="exp-intro">Audit et remédiation d'une plateforme Azure pour une application de crédit en environnement finance.</p>
+    <p class="exp-intro">Audit et remédiation d'une plateforme Azure pour une application de crédit en environnement finance, sous contrainte de conformité cybersécurité.</p>
     <div class="exp-details">
       <p>Audit complet de l'infrastructure Azure existante et identification des écarts de sécurité et de performance. Conception et mise en place d'une topologie réseau hub and spoke avec peering VNet et isolation des environnements. Déploiement de services Azure Container Apps, Azure Functions et Azure Web App. Automatisation de l'infrastructure avec Terraform et pipelines Azure DevOps. Implémentation des recommandations cybersécurité : NSG, Key Vault, RBAC, chiffrement en transit et au repos. Mise en place du monitoring avec Azure Monitor et Application Insights.</p>
     </div>
     <div class="exp-env"><strong>Env. technique :</strong> Terraform, Azure DevOps, Azure Container Apps, Azure Functions, NSG, Key Vault, RBAC, Azure Monitor</div>
   </div>
 
-  <!-- OnePoint -->
   <div class="experience-entry avoid-break">
     <div class="exp-header">
       <span class="exp-title">Ingénieure DevOps Azure - OnePoint</span>
       <span class="exp-dates"> | 2021 - 2023</span>
     </div>
-    <p class="exp-intro">Ingénieure DevOps sur plusieurs projets clients Azure dans les secteurs banque, énergie et industrie.</p>
+    <p class="exp-intro">Missions DevOps sur plusieurs projets clients dans les secteurs banque, énergie et industrie.</p>
     <div class="exp-details">
-      <p>Conception et déploiement d'infrastructures Kubernetes (AKS) pour des applications microservices. Automatisation des déploiements avec Terraform et Ansible sur des environnements multi-subscriptions. Construction et maintenance de pipelines CI/CD Azure DevOps. Administration de clusters AKS en production : Helm charts, Azure Container Registry, autoscaling, monitoring. Gestion des environnements Linux, scripting Python et Bash pour l'automatisation des opérations. Accompagnement des équipes de développement sur les pratiques DevOps et la conteneurisation.</p>
+      <p>Conception et déploiement d'infrastructures Kubernetes (AKS) pour des applications microservices. Industrialisation des déploiements avec Terraform et Ansible sur des environnements multi-subscriptions. Construction et maintenance de pipelines CI/CD Azure DevOps. Administration de clusters AKS en production : Helm charts, Azure Container Registry, autoscaling, monitoring. Scripting Python et Bash pour l'automatisation des opérations d'exploitation.</p>
     </div>
     <div class="exp-env"><strong>Env. technique :</strong> AKS, Kubernetes, Terraform, Ansible, Azure DevOps, Docker, Helm, Python, Linux</div>
   </div>
 
-  <!-- Océane -->
   <div class="experience-entry avoid-break">
     <div class="exp-header">
-      <span class="exp-title">Développeuse Full Stack / DevOps / Auditrice accessibilité - Océane Consulting, Paris</span>
+      <span class="exp-title">Ingénieure DevOps et Développeuse - Océane Consulting, Paris</span>
       <span class="exp-dates"> | 2019 - 2021</span>
     </div>
-    <p class="exp-intro">Développeuse full stack, DevOps et auditrice en accessibilité numérique sur des projets clients.</p>
+    <p class="exp-intro">Prestation en régie chez plusieurs clients, double casquette DevOps et développement, avec une spécialisation accessibilité numérique.</p>
     <div class="exp-details">
-      <p>Développement backend en PHP/Symfony pour des applications web clients. Mise en place et maintenance d'infrastructures Azure. Automatisation des déploiements et gestion des environnements avec Azure DevOps. Audits d'accessibilité numérique (RGAA) : analyse de conformité, rédaction de rapports d'audit et recommandations de remédiation.</p>
+      <p>Mise en place et maintenance d'infrastructures Azure pour les applications clients. Construction de pipelines CI/CD Azure DevOps. Développement backend en PHP/Symfony sur des applications métier. Audits d'accessibilité numérique (RGAA) : analyse de conformité, rédaction des rapports et recommandations de remédiation.</p>
     </div>
-    <div class="exp-env"><strong>Env. technique :</strong> PHP, Symfony, Azure, Azure DevOps, Docker, Linux, Python, Bash, Git</div>
+    <div class="exp-env"><strong>Env. technique :</strong> Azure, Azure DevOps, Docker, PHP/Symfony, Python, Bash, Git, Linux</div>
   </div>
 
-  <!-- Kraliss -->
   <div class="experience-entry avoid-break">
     <div class="exp-header">
-      <span class="exp-title">Développeuse Full Stack / DevOps - Kraliss, Paris</span>
+      <span class="exp-title">Développeuse Full Stack - Kraliss, Paris</span>
       <span class="exp-dates"> | 2017 - 2019</span>
     </div>
-    <p class="exp-intro">Développeuse full stack et DevOps sur une application de portefeuille électronique (wallet fintech).</p>
+    <p class="exp-intro">Développement d'une application fintech de portefeuille électronique (wallet).</p>
     <div class="exp-details">
-      <p>Développement backend de l'application en PHP/Symfony. Conception et gestion de la base de données MySQL. Mise en place de l'environnement d'hébergement et des déploiements. Administration système Linux et scripting d'automatisation.</p>
+      <p>Conception et développement backend en PHP/Symfony. Modélisation et optimisation de la base de données MySQL. Mise en place des environnements d'hébergement OVH et des procédures de déploiement. Premières missions d'automatisation système (scripts shell, cron, monitoring basique).</p>
     </div>
-    <div class="exp-env"><strong>Env. technique :</strong> PHP, Symfony, MySQL, OVH, Linux, Git, Docker</div>
+    <div class="exp-env"><strong>Env. technique :</strong> PHP, Symfony, MySQL, OVH, Linux, Git</div>
   </div>
 </div>
 
-<!-- FORMATION -->
+<div class="section avoid-break">
+  <div class="section-title">Certifications</div>
+  <div class="formation-entry">
+    <span class="degree">AWS Certified Solutions Architect</span>
+  </div>
+  <div class="formation-entry">
+    <span class="degree">Microsoft Certified: Azure Administrator Associate (AZ-104)</span>
+  </div>
+</div>
+
 <div class="section avoid-break">
   <div class="section-title">Formation</div>
   <div class="formation-entry">
@@ -346,11 +236,10 @@
     <span class="degree">Bachelor Responsable de Projet Informatique</span> <span class="school">- ETNA, Paris</span>
   </div>
   <div class="formation-entry">
-    <span class="degree">BTS Développeuse Full Stack</span>
+    <span class="degree">BTS Développement Informatique</span>
   </div>
 </div>
 
-<!-- LANGUES + INFOS -->
 <div class="section avoid-break">
   <div class="section-title">Langues et informations</div>
   <table class="bottom-section">
@@ -360,7 +249,7 @@
         <div class="info-line"><span class="info-label">Anglais :</span> opérationnel (documentation technique, échanges professionnels)</div>
       </td>
       <td>
-        <div class="info-line"><span class="info-label">Localisation :</span> Ile-de-France</div>
+        <div class="info-line"><span class="info-label">Localisation :</span> Île-de-France</div>
         <div class="info-line"><span class="info-label">Mobilité :</span> remote, hybride, sur site</div>
       </td>
     </tr>
