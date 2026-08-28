@@ -1,0 +1,12 @@
+# Jamais dans Git : sessions, identifiants, releves, captures
+*_state.json
+*_credentials*
+*_explore.txt
+*_form.txt
+*_fetch.json
+*.png
+*.jpg
+secrets/
+.venv/
+__pycache__/
+*.pyc
